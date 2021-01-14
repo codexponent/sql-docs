@@ -81,6 +81,7 @@ To query the data in your Azure Blob storage, you must define an external table 
          FORMAT_TYPE = DELIMITEDTEXT,
          FORMAT_OPTIONS (FIELD_TERMINATOR ='|',
                USE_TYPE_DEFAULT = TRUE)  
+   );
    ```
 
 1. Create an external table pointing to data stored in Azure storage with [CREATE EXTERNAL TABLE](../t-sql/statements/create-external-table-transact-sql.md). In this example, the external data contains car sensor data.
